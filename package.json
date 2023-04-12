@@ -1,23 +1,16 @@
 {
-  "name": "@prince_simform/create-webpack-react-app",
-  "version": "1.1.0",
+  "name": "react-app",
+  "version": "1.4.0",
   "description": "",
   "main": "index.js",
-    "scripts": {
+  "scripts": {
     "dev": "webpack serve",
     "build": "webpack",
     "start": "webpack serve"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/princesimform/create-webpack-react-app.git"
-  },
   "keywords": [],
   "author": "Prince Makavana",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/princesimform/create-webpack-react-app/issues"
-  },
   "devDependencies": {
     "@babel/core": "^7.21.4",
     "@babel/preset-env": "^7.21.4",
@@ -35,6 +28,5 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "homepage": "https://github.com/princesimform/create-webpack-react-app#readme"
+  }
 }
